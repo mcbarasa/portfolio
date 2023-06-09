@@ -1,0 +1,5 @@
+# Makes it easier to make updates.
+
+[submodule "themes/PaperMod"]
+path = themes/PaperMod
+url = "https://github.com/adityatelange/hugo-PaperMod.git"

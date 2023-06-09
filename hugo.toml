@@ -1,3 +1,36 @@
-baseURL = 'http://example.org/'
+baseURL = ''
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Portfolio'
+theme = 'PaperMod'
+
+    [params]
+        LinkFullImages = true
+        ShowBreadCrumbs = true
+        ShowReadingTime = true
+        ShowShareButtons = true
+        ShowPostNavLinks = true
+    [params.homeInfoparams]
+        Title= "Hello there is *Mcdonald,*"
+        Content =  "Welcome to My Portfolio Website."
+   
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/post/home'
+  weight = 1
+[[menu.main]]
+  name = 'About'
+  url = '/post/about'
+  weight = 2
+[[menu.main]]
+  name = 'Projects'
+  url = '/post/projects'
+  weight = 3
+[[menu.main]]
+  name = 'Docs'
+  url = '/post/docs'
+  weight = 4
+[[menu.main]]
+  name = 'Contacts'
+  url = '/post/contacts'
+  weight = 5
