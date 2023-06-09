@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://stately-biscuit-bfd553.netlify.app/'
 languageCode = 'en-us'
 title = 'My Portfolio'
 theme = 'PaperMod'
